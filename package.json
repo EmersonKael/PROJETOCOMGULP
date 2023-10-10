@@ -1,0 +1,32 @@
+{
+  "name": "projetocomgulp",
+  "version": "1.0.0",
+  "description": "- Rodar o Node.js\r - Agora na pasta do projeto, adiconar o npm: npm init -y\r - Instalar o gulp-cli (Command Line Interface) globalmente: npm install gulp-cli -g\r - Criar o gulpfile.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^6.3.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-serve": "^1.4.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.7.0",
+    "jquery-ui": "^1.13.2"
+  }
+}
